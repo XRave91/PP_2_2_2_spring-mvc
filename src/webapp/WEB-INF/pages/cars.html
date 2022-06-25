@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <table >
+        <H1>Thats we have:</H1>
+        <tr th:each="msg : ${messages}">
+        <td th:text="${msg}" ></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
